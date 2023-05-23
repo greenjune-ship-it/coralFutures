@@ -1,0 +1,9 @@
+<p>Welcome to Coral Futures!</p>
+
+<p>
+  {% if user.is_authenticated %}
+    Hello, {{ user.username }}!
+  {% else %}
+    Hello!
+  {% endif %}
+</p>
